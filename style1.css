@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #ff005c;
+}
+.box{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    display: flex;
+}
+.box:hover{
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .5);
+}
+.box .imgBx{
+    width: 150px;
+    flex: 0 0 150px;
+}
+.box .imgBx img{
+    max-width: 100%;
+}
+.box .content{
+    padding-left: 20px;
+}
+.box .content h2{
+    margin: 0;
+    padding-left: 0;
+    color: #ff005c;
+    font-size: 22px;
+}
+.box .content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+.box0{
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    display: flex;
+}
+.box0:hover{
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .5);
+}
+.box0 .imgBx{
+    width: 150px;
+    flex: 0 0 150px;
+}
+.box0 .imgBx img{
+    max-width: 100%;
+}
+.box0 .content{
+    padding-left: 20px;
+}
+.box0 .content h2{
+    margin: 0;
+    padding-left: 0;
+    color: #ff005c;
+    font-size: 22px;
+}
+.box0 .content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+.box1{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    display: flex;
+}
+.box1:hover{
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .5);
+}
+.box1 .imgBx{
+    width: 150px;
+    flex: 0 0 150px;
+}
+.box1 .imgBx img{
+    max-width: 100%;
+}
+.box1 .content{
+    padding-left: 20px;
+}
+.box1 .content h2{
+    margin: 0;
+    padding-left: 0;
+    color: #ff005c;
+    font-size: 22px;
+}
+.box1 .content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+.box2{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    display: flex;
+}
+.box2:hover{
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .5);
+}
+.box2 .imgBx{
+    width: 150px;
+    flex: 0 0 150px;
+}
+.box2 .imgBx img{
+    max-width: 100%;
+}
+.box2 .content{
+    padding-left: 20px;
+}
+.box2 .content h2{
+    margin: 0;
+    padding-left: 0;
+    color: #ff005c;
+    font-size: 22px;
+}
+.box2 .content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+.slider-frame{
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+/*--------SLIDE ANIMATION---------*/
+
+@-webkit-keyframes slide_animation{
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+}
+
+.slider-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+/*---------END OF ANIMATION PART----------*/
+
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
